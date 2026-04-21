@@ -16,7 +16,7 @@
   line-height: 1;
   text-transform: uppercase;
   text-align: center;
-  color: #324b74;
+  color: #514865;
   margin-bottom: 40px;
 
   @include media(desktop) {
@@ -30,7 +30,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 1.4;
-  color: #202e44;
+  color: #2f293b;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -42,7 +42,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.4;
-  color: #202e44;
+  color: #2f293b;
 
   &:not(:last-child) {
     margin-bottom: 16px;
@@ -62,7 +62,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.4;
-  color: #202e44;
+  color: #2f293b;
   margin-bottom: 8px;
 
   &:last-child {

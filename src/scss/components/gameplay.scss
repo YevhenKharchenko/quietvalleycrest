@@ -1,19 +1,14 @@
 .gameplay-section {
-  background: #b4e4fa;
+  background: #dbdee7;
 }
 
 .gameplay-section-wrapper {
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../img/gameplay/gameplay-bg-mob.png);
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: auto;
 
   @include media(desktop) {
     max-width: 1440px;
-    background-image: url(../img/gameplay/gameplay-bg-desk.png);
   }
 }
 
@@ -46,19 +41,6 @@
   }
 }
 
-.gameplay-text {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.5;
-  text-align: center;
-  color: #202e44;
-  margin-bottom: 32px;
-
-  @include media(desktop) {
-  }
-}
-
 .gameplay-list {
   display: flex;
   flex-direction: column;
@@ -75,8 +57,8 @@
 
 .gameplay-list-item {
   background: #f0f9fe;
-  border-radius: 12px;
-  padding: 16px;
+  border-radius: 16px;
+  padding: 32px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -84,7 +66,8 @@
   width: 100%;
 
   @include media(desktop) {
-    max-width: 495px;
+    padding: 32px;
+    max-width: 435px;
   }
 }
 
@@ -99,7 +82,7 @@
   font-size: 24px;
   line-height: 1.5;
   text-align: center;
-  color: #324b74;
+  color: #514865;
 
   @include media(desktop) {
   }
@@ -111,7 +94,7 @@
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  color: #202e44;
+  color: #2f293b;
 
   @include media(desktop) {
   }

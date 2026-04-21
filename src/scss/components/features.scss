@@ -1,6 +1,4 @@
 .features-section {
-  background: linear-gradient(180deg, #d5e798 0%, #f0f9fe 100%);
-
   @include media(desktop) {
   }
 }
@@ -42,9 +40,10 @@
 }
 
 .features-slide {
-  background: #3a5d95;
-  border-radius: 12px;
-  padding: 16px;
+  background: #ac92c4;
+  border: 2px solid #775d8f;
+  border-radius: 16px;
+  padding: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
