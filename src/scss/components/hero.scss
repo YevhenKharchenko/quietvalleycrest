@@ -1,5 +1,5 @@
 .hero-section {
-  background: #d6f0ff;
+  background: #dbdee7;
 
   @include media(desktop) {
   }
@@ -7,21 +7,20 @@
 
 .hero-bg-wrapper {
   padding-top: 80px;
-  padding-bottom: 76px;
+  padding-bottom: 370px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
   background-image: url(../img/hero/hero-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: bottom center;
-  background-size: auto;
+  background-size: cover;
 
   @include media(desktop) {
-    padding-top: 486px;
-    padding-bottom: 120px;
+    padding-top: 112px;
+    padding-bottom: 460px;
     max-width: 1440px;
     background-image: url(../img/hero/hero-bg-desk.jpg);
-    background-position: top center;
   }
 }
 
@@ -43,16 +42,15 @@
 .hero-title-img {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 400px;
+  margin-bottom: 32px;
 
   @include media(desktop) {
-    margin-bottom: 48px;
   }
 }
 
 .hero-btn {
   box-shadow: 2px 2px 2px 0 rgba(58, 93, 149, 0.4);
-  background: #6123e6;
+  background: #3f2c69;
   border: 1px solid #3a5d95;
   border-radius: 16px;
   padding: 13px 35px;
@@ -67,7 +65,7 @@
   &:hover,
   &:focus,
   &:active {
-    background: linear-gradient(180deg, #6123e6 0%, #3a5d95 100%);
+    background: linear-gradient(180deg, #3f2c69 0%, #2f293b 100%);
   }
 
   @include media(desktop) {
